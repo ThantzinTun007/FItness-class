@@ -1,0 +1,781 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.header_container {
+  width: 100%;
+  height: 120vh;
+  background: url("/images/title_background.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+.sec_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.error_menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  margin-top: 30px;
+}
+
+.club_cl {
+  color: rgb(13, 80, 152);
+}
+
+.menu_items {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  margin: 0px 9px;
+}
+
+.menu_items:hover {
+  color: yellow;
+}
+
+.button_form {
+  background-color: inherit;
+  font-size: 15px;
+  padding: 6px 23px 6px 15px;
+  border: 2px solid rgb(129, 128, 128);
+  color: white;
+  border-radius: 10px;
+  width: 70px;
+  transition: 0.3s ease-in-out;
+}
+
+.button_form:hover {
+  background-color: rgba(252, 249, 249, 0.921);
+  color: black;
+}
+
+.button_form2 {
+  background-color: #097fd9;
+  font-size: 15px;
+  padding: 7px 23px 7px 15px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  width: 87px;
+  transition: 0.3s ease-in-out;
+}
+
+.button_form2:hover {
+  background-color: #001e38;
+  color: rgba(219, 214, 214, 0.879);
+}
+
+.first_header,
+.sec_header {
+  font-family: "Oswald", sans-serif;
+  font-size: 70px;
+  line-height: 90px;
+}
+
+.first_header {
+  color: rgba(255, 255, 255, 0.845);
+  margin-top: 100px;
+}
+
+.sec_header {
+  color: #097fd9;
+  margin: 14px 0px 24px;
+}
+
+.header_para_container {
+  width: 55%;
+  height: auto;
+  margin: 20px 0px 30px;
+}
+
+.header_para {
+  color: rgba(255, 255, 255, 0.783);
+}
+
+.header_btn1 {
+  width: 120px;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.894);
+  font-weight: 400;
+  background-color: #097fd9;
+  border: none;
+  border-radius: 7px;
+  padding: 7px 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.header_btn1:hover {
+  background-color: rgba(252, 249, 249, 0.921);
+  color: black;
+}
+
+.header_btn2 {
+  width: 37px;
+  background-color: inherit;
+  color: #097fd9;
+  border: 2px solid rgba(255, 255, 255, 0.806);
+  border-radius: 60px;
+  padding: 5px 6px 5px 8px;
+  margin-left: 15px;
+}
+
+.header_btn2:hover {
+  color: rgba(255, 255, 255, 0.848);
+  background-color: #097fd9;
+  border: none;
+}
+
+.btn_para {
+  color: rgba(255, 255, 255, 0.798);
+  margin-left: 5px;
+  letter-spacing: 1px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.iconHeader {
+  color: rgba(255, 255, 255, 0.959);
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-family: "Oswald", sans-serif;
+  margin: 90px 0px 10px 0px;
+}
+
+.firstIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuIcon {
+  width: 45px;
+  margin: 20px 0px;
+}
+
+.iconText {
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 9px;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
+}
+
+.iconText3 {
+  color: white;
+  font-size: 13px;
+  font-weight: 300;
+  margin-left: 9px;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
+}
+
+/* sec space */
+
+.secSpace {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(black, #011322, black);
+  text-align: center;
+  color: white;
+}
+
+.whyHeader {
+  color: #097fd9;
+  padding-top: 90px;
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+
+.motiText {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+
+.iconImgContainer {
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  background-color: #181819;
+  margin: 0 auto;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.secSpaceIcon {
+  width: 50%;
+  margin: 20px 0px;
+}
+
+.iconText {
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin: 30px 0px 20px;
+}
+
+.iconPara {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.781);
+}
+
+.thirdContainer {
+  margin-top: 80px;
+}
+
+.imgForm {
+  text-align: left;
+}
+
+.secSpaceFirstImg {
+  width: 340px;
+  height: 240px;
+  border-radius: 20px;
+  position: relative;
+  z-index: 0;
+}
+
+.secSpaceSecImg {
+  width: 220px;
+  height: 190px;
+  border-radius: 20px;
+  position: relative;
+  left: 250px;
+  bottom: 200px;
+  z-index: 1;
+}
+
+.secSpaceThirdImg {
+  width: 230px;
+  height: 160px;
+  border-radius: 20px;
+  position: relative;
+  z-index: 2;
+  bottom: 20px;
+  right: 100px;
+  margin-bottom: 100px;
+}
+
+.secSpaceHeader {
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: left;
+}
+
+.checkboxContainer1 {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.checkboxContainer {
+  margin: 10px 0px;
+  text-align: left;
+}
+
+.checkboxForm {
+  width: 3%;
+  margin-right: 10px;
+}
+
+.checkboxText {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.778);
+  letter-spacing: 0.5px;
+}
+
+.btnContainer {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.contactBtn {
+  margin: 0px 10px;
+}
+
+.trainerHeader {
+  color: #097fd9;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+
+.first_trainer {
+  width: 100%;
+  height: 380px;
+  background-color: rgba(23, 22, 22, 0.857);
+  margin: 40px 10px 20px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-top: 21px;
+}
+
+.inner_box {
+  width: 92%;
+  height: 340px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.first_trainer_img {
+  width: 100%;
+  height: 250px;
+  background: url(/images/firsttrainer_img.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.sec_trainer_img {
+  width: 100%;
+  height: 250px;
+  background: url(/images/secTrainer.jpg);
+  background-position: top;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.third_trainer_img {
+  width: 100%;
+  height: 250px;
+  background: url(/images/thirdTrainer.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.forth_trainer_img {
+  width: 100%;
+  height: 250px;
+  background: url(/images/forthT.jpg);
+  background-position: top;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.fifth_trainer_img {
+  width: 100%;
+  height: 250px;
+  background: url(/images/fifthT.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.six_trainer_img {
+  width: 100%;
+  height: 250px;
+  background: url(/images/sixT.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.seven_trainer_img {
+  width: 100%;
+  height: 250px;
+  background: url(/images/sevenT.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.eight_trainer_img {
+  width: 100%;
+  height: 250px;
+  background: url(/images/eightT.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.trainer_name {
+  font-size: 18px;
+  margin-top: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.trainer_rate {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.767);
+  margin-top: 10px;
+}
+
+.trainer_icon {
+  font-size: 14px;
+  color: orange;
+  margin-top: 10px;
+}
+
+.third_space {
+  width: 100%;
+  height: auto;
+  background: url(/images/gymBlur.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.third_container {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #000000cf;
+}
+
+.schadule_sm_header {
+  color: #097fd9;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+
+.check_schadule {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.timmer_container {
+  width: 100%;
+  height: 84vh;
+  border-radius: 20px;
+}
+
+.timers_row {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin: 10px 0px;
+  padding-top: 15px;
+}
+
+.dateTime {
+  width: 11%;
+  height: 80px;
+  background-color: #222222;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.815);
+  font-size: 37px;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+.dateTimeFs {
+  width: 13%;
+  height: 80px;
+  background-color: #222222;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.815);
+  letter-spacing: 1px;
+  border-radius: 10px;
+}
+
+.times {
+  width: 13%;
+  height: 80px;
+  background-color: #097fd9;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.815);
+  font-size: 37px;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+.dateTimeSm {
+  width: 13%;
+  height: 80px;
+  border: 1px solid rgba(255, 255, 255, 0.864);
+  text-align: center;
+  color: #bfdfee;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  font-size: 14px;
+  padding-top: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.fs {
+  font-size: 16px;
+}
+
+.size {
+  padding-top: 27px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.forth_space {
+  width: 100%;
+  height: auto;
+  padding: 40px 0px;
+  background-color: black;
+}
+
+.pricing_sm_header {
+  color: #097fd9;
+  padding-bottom: 5px;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.pricing_package {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.pricing_btn {
+  width: 25%;
+  height: auto;
+  background-color: #f8f9fa;
+  margin: 0 auto;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.packages {
+  width: 100%;
+  height: auto;
+  background-color: #0d0d0d;
+  border-radius: 15px;
+  margin-top: 55px;
+  padding: 20px 30px;
+}
+
+.mid_package {
+  width: 100%;
+  height: auto;
+  background-color: #097fd9;
+  margin-top: 30px;
+  border-radius: 15px;
+  padding: 40px 30px;
+}
+
+.bl_color {
+  color: #097fd9;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.basic_package {
+  font-size: 16px;
+}
+
+.money {
+  color: rgba(255, 255, 255, 0.856);
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.bill {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.467);
+}
+
+.check_icon {
+  margin-right: 12px;
+}
+
+.check_bill {
+  color: rgba(255, 255, 255, 0.716);
+  font-size: 14px;
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+.mid_package_header {
+  font-size: 16px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.btn_primary {
+  width: 100%;
+  height: 40px;
+  background-color: #097fd9;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn_dark {
+  width: 100%;
+  height: 40px;
+  background-color: #181819;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  transition: 0.4s ease-in-out;
+}
+
+.btn_dark:hover,
+.btn_primary:hover {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.918);
+}
+
+.footer_container {
+  width: 100%;
+  height: auto;
+  padding-top: 70px;
+  padding-bottom: 60px;
+  background: linear-gradient(black, rgb(11, 5, 41), black);
+  border-bottom: 1px solid rgba(244, 241, 241, 0.889);
+}
+
+.footer_box {
+  width: 100%;
+  height: auto;
+  padding: 30px 20px;
+  border-radius: 15px;
+  background-color: #097fd9;
+  text-align: center;
+}
+
+.footer_inner_box {
+  width: 44%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.fitness_tips {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #ffffffe5;
+}
+
+.breaking_news {
+  font-size: 15px;
+  color: #f8f9facc;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 25px;
+}
+
+.footer_btn_container {
+  width: 100%;
+  height: auto;
+  padding: 5px 6px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.footer_textbox {
+  border: none;
+  outline: none;
+  padding: 0px 20px;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.foooter_btn {
+  width: 30%;
+  height: auto;
+  padding: 8px;
+  background-color: #090707;
+  color: rgba(255, 255, 255, 0.847);
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.foooter_btn:hover {
+  background-color: #242323;
+}
+
+.footer_logo {
+  width: 100%;
+  height: auto;
+  margin: 90px 0px 20px;
+}
+
+.footer_logo_one {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.914);
+  text-decoration: none;
+  margin-bottom: 0px;
+}
+
+.club_logo {
+  color: #097fd9;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.footer_logo_text {
+  color: #ffffffab;
+  font-size: 14px;
+}
+
+.footer_all_header {
+  font-size: 28px;
+  color: white;
+  margin: 90px 0px 20px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.footer_logo_text_sec {
+  color: #ffffffab;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer_social_icons {
+  font-size: 17px;
+  margin-right: 9px;
+  margin-top: 8px;
+}
+
+.last_footer {
+  width: 100%;
+  height: auto;
+  background-color: #020108;
+  padding: 30px;
+}
+
+.all_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.last_text {
+  margin-left: 9px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.687);
+}
